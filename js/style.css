@@ -1,0 +1,107 @@
+
+body {
+
+    padding: 50px;
+    background-image: linear-gradient(rgba(24, 24, 24, 0.933), rgb(82, 82, 82));
+
+}
+
+.vm{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 0, 0);
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 20px 10px 5px rgb(36, 36, 36);
+}
+
+.botao1{
+        border-color: #750000;
+        border-radius: 40px;
+        color: #fff;
+        width: 40px;
+        text-align: center;
+        box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3498db;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+      }
+      .third:hover {
+        box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+      
+}
+.botao2{
+    border-color: #750000;
+    border-radius: 40px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  
+}
+
+.botao3{
+    border-color: #750000;
+    border-radius: 40px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  
+}
+
+.botao4{
+    border-color: #750000;
+    border-radius: 40px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #3a3a3a inset, 0 0 10px 4px #020202;
+  
+}
+
+.botaoLimpar{
+    border-color: #750000;
+    border-radius: 20px;
+    color: #fff;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #3a3a3a inset, 0 0 10px 4px #020202;
+  
+}
+
+#n1{
+    border-radius: 5px;
+    height: 30px;
+}
+#n2{
+    border-radius: 5px;
+    height: 30px;
+}
+
+
+
+

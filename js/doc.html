@@ -1,0 +1,100 @@
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+
+
+<head>
+
+    <script>
+
+function calc(e){
+   
+   var operacao = e.value;
+   
+   var n1=parseFloat(document.getElementById("n1").value);
+   var n2=parseFloat(document.getElementById("n2").value);
+   
+   var calculo = eval(n1+operacao+n2);
+   
+
+   if(!isNaN(calculo)){
+      alert(calculo);
+   }
+
+   if (document.getElementById("n1", "n2").value == 1) {
+
+    console.log("valor 1", "valor 2");
+
+   } else {
+    
+   }
+  
+}
+
+function limpar(){
+   //alert("1");
+   var f=document.getElementById("frm");
+   var n1 = f.n1;
+   var n2 = f.n2;
+   n1.value = "";
+   n2.value = "";
+}
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+<center>
+
+    <div class="vm">
+
+<form id="frm"  >
+    <div id="container">
+       <div id="topo"> 
+          <h1>Calculadora JS</h1>
+       </div>
+       <div id="menu">
+       </div>
+          <div class="bloco1">
+             <span>Insira os numeros:</span><br>
+             <br>
+             <input type="text" size="2" id="n1" placeholder="0">
+             <input type="text" size="2"  id="n2" placeholder="0"><br><br>
+             <input class="botao1" type="button" value="+" onClick="calc(this)">
+             <input class="botao2" type="button" value="-" onClick="calc(this)">
+             <input class="botao3" type="button" value="*" onClick="calc(this)">
+             <input class="botao4" type="button" value="/" onClick="calc(this)">
+             <br><br>
+             <input class="botaoLimpar" type="button" value="Limpar" onClick="limpar()"/>
+          </div>
+       </div>
+
+       <div id="v"></div>
+
+       <div id="right">
+    
+       </div>
+       <div id="bottom">
+       </div>
+    </div>
+ </form>
+
+
+</div>
+
+</center>
+
+</div>
+
+    
+</body>
